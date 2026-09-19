@@ -1,6 +1,89 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+.card {
+    border: 1px groove black;
+    border-radius: 8px;
+    padding: 50pxpx;
+    margin: none;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+ul
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 300px;
+    list-style: none;
+    padding: 0;
+}
+h1
+{
+    font-family: Verdana;
+    color: rgb(194, 116, 81);
+}
+body
+{
+    background-color: blanchedalmond;
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 30px;
+}
+.busca input {
+    border-radius: 20px; 
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.busca  {
+    display: flex;
+    gap: 10px;
+    margin: 0p;
+    border: none;
+
+ 
+}
+.busca button {
+    border-radius:20px ;
+    padding: 8px 18px;
+    background-color: rgb(194,116,81);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.busca button:hover
+{
+    background-color: #af6d6d;
+}
+#produtos
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 200px);-
+   gap: 20px;
+   padding: 20px;
+
+}
+.banner {
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}   
+.banner img {
+    width: 100%;
+    height: 900px;
+    display: block;
+}   
