@@ -19,13 +19,7 @@ function exibir(lista) {
         `;
         container.appendChild(card);        
     });}
-function pesquisar() {
-        const texto = document.getElementById('campoBusca').value.toLowerCase();
-         const resultado = produtos.filter(produto => {
-        return produto.title.toLowerCase().includes(texto);
-    });
-        exibir(resultado);
-}
+
 document.getElementById('btnBusca').addEventListener('click', pesquisar);
 document.getElementById('campoBusca').addEventListener('keyup', pesquisar);
 carregar();
